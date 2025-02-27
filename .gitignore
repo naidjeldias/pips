@@ -5,3 +5,5 @@
 .DS_Store
 *.out
 *.gif
+logs_demo/
+reference_model/
