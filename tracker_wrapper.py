@@ -72,7 +72,7 @@ if __name__ == '__main__':
     configs = {}
     tracker = PipsTracker(configs)
     prevImg = np.random.randint(0, 256, (480, 640, 3), dtype=np.uint8)
-    nextImg = [np.random.randint(0, 256, (480, 640, 3), dtype=np.uint8) for _ in range(3)]
+    nextImg = [np.random.randint(0, 256, (480, 640, 3), dtype=np.uint8) for _ in range(7)]
     N = 1000  # number of keypoints
     height, width = prevImg.shape[:2]
     prevPts = np.stack([
